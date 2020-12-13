@@ -30,8 +30,7 @@ flags.DEFINE_string('access_token', '', 'Access token from `gcloud auth print-ac
 PROJECT_ID = "four-metrics"
 # query_file = "/users/gripp/repos/fourkeys/queries/deployments.sql"
 # table = "deployments"
-# access_token = "Bearer ya29.a0AfH6SMD4dOMXBayKL5E8B3UXhikENHHYROZ-rbjC2TLA5-_h-rUhSgGMJl5dvjyrIgM6p1FJaT5uQLegH6ESc8Dpxi73ttikx62HbaEECRJzxy6hJBcWCDnNDweJNZNOWCu3sXKXgMB9o2PFlVl1bZP8CgQinPYr7vNBe2kdkU2Ci2E5uvB9"
-
+# access_token = 
 def get_bq_client():
     # If the BigQuery DataTransfer API has been enabled recently, there is sometimes a delay.
     # Script will retry until the API settings have propagated
